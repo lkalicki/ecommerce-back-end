@@ -12,11 +12,11 @@ router.get('/', (req, res) => {
     include: [
       {
         model: Product,
-        attributes: ['id', 'product_name', 'price','stock', 'category_id']
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
       }
     ]
   })
-    .then(dbCategoryData => res.join(dbCategoryData))
+    .then(dbCategoryData => res.json(dbCategoryData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
@@ -43,7 +43,7 @@ router.get('/:id', (req, res) => {
         res.status(404).json({message: 'No category found with this id'});
         return;
       }
-      res.join(dbCategoryData);
+      res.json(dbCategoryData);
       })
       .catch(err => {
         console.log(err);

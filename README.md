@@ -12,7 +12,7 @@ In order to install the E-Commerce Back-End application, the user must run 'npm 
 
 To run the application, enter 'node server.js' in the command prompt and select the desired actions.
 
-A Walkthrough video of the E-Commerce Back-End Appolication is available [here](link).
+A Walkthrough video of the E-Commerce Back-End Appolication is available [here](https://watch.screencastify.com/v/GjO9lIj4XpliUNrdCVc5).
 
 ## Contributors
 
@@ -24,6 +24,6 @@ Links
     GitHub Repository: https://github.com/lkalicki/ecommerce-back-end
     </li>
     <li>
-    Walkthrough Video: link
+    Walkthrough Video: https://watch.screencastify.com/v/GjO9lIj4XpliUNrdCVc5
     </li>
 </ul>
